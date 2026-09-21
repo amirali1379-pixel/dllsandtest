@@ -1,0 +1,17 @@
+C:\Users\Mo\Desktop\ashghal\SentryGazeCsvDiagnostic\obj\Debug\net9.0-windows\SentryGazeCsvDiagnostic.csproj.AssemblyReference.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazeCsvDiagnostic\obj\Debug\net9.0-windows\SentryGazeCsvDiagnostic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mo\Desktop\ashghal\SentryGazeCsvDiagnostic\obj\Debug\net9.0-windows\SentryGazeCsvDiagnostic.AssemblyInfoInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazeCsvDiagnostic\obj\Debug\net9.0-windows\SentryGazeCsvDiagnostic.AssemblyInfo.cs
+C:\Users\Mo\Desktop\ashghal\SentryGazeCsvDiagnostic\obj\Debug\net9.0-windows\SentryGazeCsvDiagnostic.csproj.CoreCompileInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazeCsvDiagnostic\bin\Debug\net9.0-windows\SentryGazeCsvDiagnostic.exe
+C:\Users\Mo\Desktop\ashghal\SentryGazeCsvDiagnostic\bin\Debug\net9.0-windows\SentryGazeCsvDiagnostic.deps.json
+C:\Users\Mo\Desktop\ashghal\SentryGazeCsvDiagnostic\bin\Debug\net9.0-windows\SentryGazeCsvDiagnostic.runtimeconfig.json
+C:\Users\Mo\Desktop\ashghal\SentryGazeCsvDiagnostic\bin\Debug\net9.0-windows\SentryGazeCsvDiagnostic.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazeCsvDiagnostic\bin\Debug\net9.0-windows\SentryGazeCsvDiagnostic.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazeCsvDiagnostic\bin\Debug\net9.0-windows\Tobii.GameIntegration.Net.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazeCsvDiagnostic\obj\Debug\net9.0-windows\SentryGa.AA6A1AB5.Up2Date
+C:\Users\Mo\Desktop\ashghal\SentryGazeCsvDiagnostic\obj\Debug\net9.0-windows\SentryGazeCsvDiagnostic.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazeCsvDiagnostic\obj\Debug\net9.0-windows\refint\SentryGazeCsvDiagnostic.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazeCsvDiagnostic\obj\Debug\net9.0-windows\SentryGazeCsvDiagnostic.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazeCsvDiagnostic\obj\Debug\net9.0-windows\SentryGazeCsvDiagnostic.genruntimeconfig.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazeCsvDiagnostic\obj\Debug\net9.0-windows\ref\SentryGazeCsvDiagnostic.dll
