@@ -1,0 +1,14 @@
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase13IntegrationTest\obj\Debug\net9.0\SentryGazePhase13IntegrationTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase13IntegrationTest\obj\Debug\net9.0\SentryGazePhase13IntegrationTest.AssemblyInfoInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase13IntegrationTest\obj\Debug\net9.0\SentryGazePhase13IntegrationTest.AssemblyInfo.cs
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase13IntegrationTest\obj\Debug\net9.0\SentryGazePhase13IntegrationTest.csproj.CoreCompileInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase13IntegrationTest\bin\Debug\net9.0\SentryGazePhase13IntegrationTest.exe
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase13IntegrationTest\bin\Debug\net9.0\SentryGazePhase13IntegrationTest.deps.json
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase13IntegrationTest\bin\Debug\net9.0\SentryGazePhase13IntegrationTest.runtimeconfig.json
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase13IntegrationTest\bin\Debug\net9.0\SentryGazePhase13IntegrationTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase13IntegrationTest\bin\Debug\net9.0\SentryGazePhase13IntegrationTest.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase13IntegrationTest\obj\Debug\net9.0\SentryGazePhase13IntegrationTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase13IntegrationTest\obj\Debug\net9.0\refint\SentryGazePhase13IntegrationTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase13IntegrationTest\obj\Debug\net9.0\SentryGazePhase13IntegrationTest.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase13IntegrationTest\obj\Debug\net9.0\SentryGazePhase13IntegrationTest.genruntimeconfig.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase13IntegrationTest\obj\Debug\net9.0\ref\SentryGazePhase13IntegrationTest.dll

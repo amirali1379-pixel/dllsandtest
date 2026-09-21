@@ -1,0 +1,14 @@
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase14EvaluationTest\bin\Debug\net9.0\SentryGazePhase14EvaluationTest.exe
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase14EvaluationTest\bin\Debug\net9.0\SentryGazePhase14EvaluationTest.deps.json
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase14EvaluationTest\bin\Debug\net9.0\SentryGazePhase14EvaluationTest.runtimeconfig.json
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase14EvaluationTest\bin\Debug\net9.0\SentryGazePhase14EvaluationTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase14EvaluationTest\bin\Debug\net9.0\SentryGazePhase14EvaluationTest.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase14EvaluationTest\obj\Debug\net9.0\SentryGazePhase14EvaluationTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase14EvaluationTest\obj\Debug\net9.0\SentryGazePhase14EvaluationTest.AssemblyInfoInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase14EvaluationTest\obj\Debug\net9.0\SentryGazePhase14EvaluationTest.AssemblyInfo.cs
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase14EvaluationTest\obj\Debug\net9.0\SentryGazePhase14EvaluationTest.csproj.CoreCompileInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase14EvaluationTest\obj\Debug\net9.0\SentryGazePhase14EvaluationTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase14EvaluationTest\obj\Debug\net9.0\refint\SentryGazePhase14EvaluationTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase14EvaluationTest\obj\Debug\net9.0\SentryGazePhase14EvaluationTest.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase14EvaluationTest\obj\Debug\net9.0\SentryGazePhase14EvaluationTest.genruntimeconfig.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase14EvaluationTest\obj\Debug\net9.0\ref\SentryGazePhase14EvaluationTest.dll

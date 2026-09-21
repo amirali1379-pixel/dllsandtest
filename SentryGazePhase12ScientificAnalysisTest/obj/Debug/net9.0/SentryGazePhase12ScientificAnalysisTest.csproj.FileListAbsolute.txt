@@ -1,0 +1,14 @@
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase12ScientificAnalysisTest\bin\Debug\net9.0\SentryGazePhase12ScientificAnalysisTest.exe
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase12ScientificAnalysisTest\bin\Debug\net9.0\SentryGazePhase12ScientificAnalysisTest.deps.json
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase12ScientificAnalysisTest\bin\Debug\net9.0\SentryGazePhase12ScientificAnalysisTest.runtimeconfig.json
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase12ScientificAnalysisTest\bin\Debug\net9.0\SentryGazePhase12ScientificAnalysisTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase12ScientificAnalysisTest\bin\Debug\net9.0\SentryGazePhase12ScientificAnalysisTest.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase12ScientificAnalysisTest\obj\Debug\net9.0\SentryGazePhase12ScientificAnalysisTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase12ScientificAnalysisTest\obj\Debug\net9.0\SentryGazePhase12ScientificAnalysisTest.AssemblyInfoInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase12ScientificAnalysisTest\obj\Debug\net9.0\SentryGazePhase12ScientificAnalysisTest.AssemblyInfo.cs
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase12ScientificAnalysisTest\obj\Debug\net9.0\SentryGazePhase12ScientificAnalysisTest.csproj.CoreCompileInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase12ScientificAnalysisTest\obj\Debug\net9.0\SentryGazePhase12ScientificAnalysisTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase12ScientificAnalysisTest\obj\Debug\net9.0\refint\SentryGazePhase12ScientificAnalysisTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase12ScientificAnalysisTest\obj\Debug\net9.0\SentryGazePhase12ScientificAnalysisTest.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase12ScientificAnalysisTest\obj\Debug\net9.0\SentryGazePhase12ScientificAnalysisTest.genruntimeconfig.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase12ScientificAnalysisTest\obj\Debug\net9.0\ref\SentryGazePhase12ScientificAnalysisTest.dll
