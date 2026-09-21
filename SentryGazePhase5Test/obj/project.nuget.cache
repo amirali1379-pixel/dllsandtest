@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "DTRlIoU+N9w=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mo\\Desktop\\ashghal\\SentryGazePhase5Test\\SentryGazePhase5CoordinateValidator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mo\\.nuget\\packages\\system.collections.immutable\\10.0.11\\system.collections.immutable.10.0.11.nupkg.sha512",
+    "C:\\Users\\Mo\\.nuget\\packages\\system.numerics.vectors\\4.6.1\\system.numerics.vectors.4.6.1.nupkg.sha512",
+    "C:\\Users\\Mo\\.nuget\\packages\\system.reflection.metadata\\10.0.11\\system.reflection.metadata.10.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
