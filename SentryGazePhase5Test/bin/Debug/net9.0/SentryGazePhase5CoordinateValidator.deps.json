@@ -1,0 +1,68 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "SentryGazePhase5CoordinateValidator/1.0.0": {
+        "dependencies": {
+          "System.Numerics.Vectors": "4.6.1",
+          "System.Reflection.Metadata": "10.0.11"
+        },
+        "runtime": {
+          "SentryGazePhase5CoordinateValidator.dll": {}
+        }
+      },
+      "System.Collections.Immutable/10.0.11": {
+        "runtime": {
+          "lib/net9.0/System.Collections.Immutable.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1126.37416"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.6.1": {},
+      "System.Reflection.Metadata/10.0.11": {
+        "dependencies": {
+          "System.Collections.Immutable": "10.0.11"
+        },
+        "runtime": {
+          "lib/net9.0/System.Reflection.Metadata.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1126.37416"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SentryGazePhase5CoordinateValidator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Collections.Immutable/10.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BQY956wwWSjRDoOspL6L1JscbFoSgJK606mO3PYalBHIZRV+Sc2xokvR/NHLlpUEfju6EbW5GbKbNpVYQ65cLw==",
+      "path": "system.collections.immutable/10.0.11",
+      "hashPath": "system.collections.immutable.10.0.11.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sQxefTnhagrhoq2ReR0D/6K0zJcr9Hrd6kikeXsA1I8kOCboTavcUC4r7TSfpKFeE163uMuxZcyfO1mGO3EN8Q==",
+      "path": "system.numerics.vectors/4.6.1",
+      "hashPath": "system.numerics.vectors.4.6.1.nupkg.sha512"
+    },
+    "System.Reflection.Metadata/10.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ayYHfHtraz6Z6kFQrlTVJ4lV8jG11noHfu6fWAdeP6I6coGCym14V06jZApgk/9c74HoP8Wmcpxd1NokbKFdbQ==",
+      "path": "system.reflection.metadata/10.0.11",
+      "hashPath": "system.reflection.metadata.10.0.11.nupkg.sha512"
+    }
+  }
+}
