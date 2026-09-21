@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "SentryGazeCsvDiagnostic/1.0.0": {
+        "dependencies": {
+          "Tobii.GameIntegration.Net": "9.0.4.26"
+        },
+        "runtime": {
+          "SentryGazeCsvDiagnostic.dll": {}
+        }
+      },
+      "Tobii.GameIntegration.Net/9.0.4.26": {
+        "runtime": {
+          "Tobii.GameIntegration.Net.dll": {
+            "assemblyVersion": "9.0.4.26",
+            "fileVersion": "9.0.4.26"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SentryGazeCsvDiagnostic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tobii.GameIntegration.Net/9.0.4.26": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

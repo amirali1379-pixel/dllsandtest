@@ -1,0 +1,301 @@
+﻿using System;
+using System.Globalization;
+using System.IO;
+using System.Linq;
+
+Console.WriteLine("=== Sentry Gap-Aware Movement Analyzer ===");
+Console.WriteLine();
+
+string dataFolder = @"C:\Users\Mo\Desktop\ashghal\SentryGazeCapture";
+
+string? csvFile = Directory
+    .GetFiles(dataFolder, "gaze_*.csv")
+    .OrderByDescending(File.GetLastWriteTime)
+    .FirstOrDefault();
+
+if (csvFile == null)
+{
+    Console.WriteLine("No gaze CSV found.");
+    return;
+}
+
+Console.WriteLine($"File: {Path.GetFileName(csvFile)}");
+
+var samples = File.ReadAllLines(csvFile)
+    .Skip(1)
+    .Where(line => !string.IsNullOrWhiteSpace(line))
+    .Select(line =>
+    {
+        string[] p = line.Split(',');
+
+        if (p.Length < 3)
+            return null;
+
+        return new GazeSample
+        {
+            Time = long.Parse(p[0], CultureInfo.InvariantCulture),
+            X = double.Parse(p[1], CultureInfo.InvariantCulture),
+            Y = double.Parse(p[2], CultureInfo.InvariantCulture)
+        };
+    })
+    .Where(x => x != null)
+    .Select(x => x!)
+    .ToList();
+
+if (samples.Count < 2)
+{
+    Console.WriteLine("Not enough samples.");
+    return;
+}
+
+// ------------------------------------------------------------
+// Thresholds
+// ------------------------------------------------------------
+
+const double gapThresholdMs = 100.0;
+
+// ------------------------------------------------------------
+// Basic timing
+// ------------------------------------------------------------
+
+double duration =
+    (samples[^1].Time - samples[0].Time) / 1_000_000.0;
+
+var intervals = samples
+    .Zip(samples.Skip(1), (a, b) => new IntervalData
+    {
+        From = a,
+        To = b,
+        DeltaMs = (b.Time - a.Time) / 1000.0
+    })
+    .ToList();
+
+double averageInterval =
+    intervals.Average(x => x.DeltaMs);
+
+double sampleRate =
+    duration > 0
+        ? (samples.Count - 1) / duration
+        : 0;
+
+// ------------------------------------------------------------
+// Gap-aware movement analysis
+// ------------------------------------------------------------
+
+var validMovements = intervals
+    .Where(x => x.DeltaMs <= gapThresholdMs)
+    .Select(x =>
+    {
+        double dx = x.To.X - x.From.X;
+        double dy = x.To.Y - x.From.Y;
+
+        double distance =
+            Math.Sqrt(dx * dx + dy * dy);
+
+        double velocity =
+            x.DeltaMs > 0
+                ? distance / (x.DeltaMs / 1000.0)
+                : 0;
+
+        return new Movement
+        {
+            From = x.From,
+            To = x.To,
+            DeltaMs = x.DeltaMs,
+            Dx = dx,
+            Dy = dy,
+            Distance = distance,
+            Velocity = velocity
+        };
+    })
+    .ToList();
+
+var rejectedMovements = intervals
+    .Where(x => x.DeltaMs > gapThresholdMs)
+    .ToList();
+
+double totalDistance =
+    validMovements.Sum(x => x.Distance);
+
+double averageStep =
+    validMovements.Count > 0
+        ? validMovements.Average(x => x.Distance)
+        : 0;
+
+double averageVelocity =
+    validMovements.Count > 0
+        ? validMovements.Average(x => x.Velocity)
+        : 0;
+
+Movement? maxMovement =
+    validMovements
+        .OrderByDescending(x => x.Distance)
+        .FirstOrDefault();
+
+Movement? maxVelocity =
+    validMovements
+        .OrderByDescending(x => x.Velocity)
+        .FirstOrDefault();
+
+// ------------------------------------------------------------
+// Output
+// ------------------------------------------------------------
+
+Console.WriteLine();
+Console.WriteLine("=== BASIC DATA ===");
+Console.WriteLine($"Samples:                 {samples.Count}");
+Console.WriteLine($"Duration:                {duration:F3} sec");
+Console.WriteLine($"Raw sample rate:         {sampleRate:F2} Hz");
+
+Console.WriteLine();
+Console.WriteLine("=== GAP FILTER ===");
+Console.WriteLine($"Gap threshold:           {gapThresholdMs:F0} ms");
+Console.WriteLine($"Valid intervals:         {validMovements.Count}");
+Console.WriteLine($"Rejected gap intervals:  {rejectedMovements.Count}");
+
+Console.WriteLine();
+Console.WriteLine("=== VALID MOVEMENT ===");
+Console.WriteLine($"Total distance:          {totalDistance:F6}");
+Console.WriteLine($"Average step:            {averageStep:F6}");
+Console.WriteLine($"Average velocity:        {averageVelocity:F6}");
+
+if (maxMovement != null)
+{
+    Console.WriteLine();
+    Console.WriteLine("=== LARGEST VALID MOVEMENT ===");
+
+    Console.WriteLine(
+        $"Distance:                {maxMovement.Distance:F6}");
+
+    Console.WriteLine(
+        $"ΔX:                      {maxMovement.Dx:F6}");
+
+    Console.WriteLine(
+        $"ΔY:                      {maxMovement.Dy:F6}");
+
+    Console.WriteLine(
+        $"Δt:                      {maxMovement.DeltaMs:F2} ms");
+
+    Console.WriteLine(
+        $"Velocity:                {maxMovement.Velocity:F6}");
+}
+
+if (maxVelocity != null)
+{
+    Console.WriteLine();
+    Console.WriteLine("=== MAX VALID VELOCITY ===");
+
+    Console.WriteLine(
+        $"Velocity:                {maxVelocity.Velocity:F6}");
+
+    Console.WriteLine(
+        $"Distance:                {maxVelocity.Distance:F6}");
+
+    Console.WriteLine(
+        $"Δt:                      {maxVelocity.DeltaMs:F2} ms");
+
+    Console.WriteLine(
+        $"ΔX:                      {maxVelocity.Dx:F6}");
+
+    Console.WriteLine(
+        $"ΔY:                      {maxVelocity.Dy:F6}");
+}
+
+// ------------------------------------------------------------
+// Rejected gaps
+// ------------------------------------------------------------
+
+Console.WriteLine();
+Console.WriteLine("=== REJECTED GAPS ===");
+
+foreach (var gap in rejectedMovements)
+{
+    Console.WriteLine(
+        $"Gap: {gap.DeltaMs,8:F2} ms | " +
+        $"From X={gap.From.X:F4}, Y={gap.From.Y:F4} | " +
+        $"To X={gap.To.X:F4}, Y={gap.To.Y:F4}");
+}
+
+// ------------------------------------------------------------
+// Velocity distribution
+// ------------------------------------------------------------
+
+if (validMovements.Count > 0)
+{
+    var sortedVelocity =
+        validMovements
+            .Select(x => x.Velocity)
+            .OrderBy(x => x)
+            .ToList();
+
+    double p50 = Percentile(sortedVelocity, 0.50);
+    double p90 = Percentile(sortedVelocity, 0.90);
+    double p95 = Percentile(sortedVelocity, 0.95);
+    double p99 = Percentile(sortedVelocity, 0.99);
+
+    Console.WriteLine();
+    Console.WriteLine("=== VELOCITY DISTRIBUTION ===");
+    Console.WriteLine($"P50 velocity:            {p50:F6}");
+    Console.WriteLine($"P90 velocity:            {p90:F6}");
+    Console.WriteLine($"P95 velocity:            {p95:F6}");
+    Console.WriteLine($"P99 velocity:            {p99:F6}");
+}
+
+Console.WriteLine();
+Console.WriteLine("=== ANALYSIS COMPLETE ===");
+
+// ------------------------------------------------------------
+// Helpers
+// ------------------------------------------------------------
+
+static double Percentile(
+    System.Collections.Generic.List<double> values,
+    double percentile)
+{
+    if (values.Count == 0)
+        return 0;
+
+    if (values.Count == 1)
+        return values[0];
+
+    double position =
+        (values.Count - 1) * percentile;
+
+    int lower = (int)Math.Floor(position);
+    int upper = (int)Math.Ceiling(position);
+
+    if (lower == upper)
+        return values[lower];
+
+    double fraction =
+        position - lower;
+
+    return values[lower]
+        + (values[upper] - values[lower]) * fraction;
+}
+
+class GazeSample
+{
+    public long Time { get; set; }
+    public double X { get; set; }
+    public double Y { get; set; }
+}
+
+class IntervalData
+{
+    public GazeSample From { get; set; } = null!;
+    public GazeSample To { get; set; } = null!;
+    public double DeltaMs { get; set; }
+}
+
+class Movement
+{
+    public GazeSample From { get; set; } = null!;
+    public GazeSample To { get; set; } = null!;
+
+    public double DeltaMs { get; set; }
+    public double Dx { get; set; }
+    public double Dy { get; set; }
+    public double Distance { get; set; }
+    public double Velocity { get; set; }
+}

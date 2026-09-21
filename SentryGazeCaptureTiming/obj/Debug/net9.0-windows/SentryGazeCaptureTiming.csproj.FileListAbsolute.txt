@@ -1,0 +1,17 @@
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\bin\Debug\net9.0-windows\SentryGazeCaptureTiming.exe
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\bin\Debug\net9.0-windows\SentryGazeCaptureTiming.deps.json
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\bin\Debug\net9.0-windows\SentryGazeCaptureTiming.runtimeconfig.json
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\bin\Debug\net9.0-windows\SentryGazeCaptureTiming.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\bin\Debug\net9.0-windows\SentryGazeCaptureTiming.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\bin\Debug\net9.0-windows\Tobii.GameIntegration.Net.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\obj\Debug\net9.0-windows\SentryGazeCaptureTiming.csproj.AssemblyReference.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\obj\Debug\net9.0-windows\SentryGazeCaptureTiming.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\obj\Debug\net9.0-windows\SentryGazeCaptureTiming.AssemblyInfoInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\obj\Debug\net9.0-windows\SentryGazeCaptureTiming.AssemblyInfo.cs
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\obj\Debug\net9.0-windows\SentryGazeCaptureTiming.csproj.CoreCompileInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\obj\Debug\net9.0-windows\SentryGa.CC09D793.Up2Date
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\obj\Debug\net9.0-windows\SentryGazeCaptureTiming.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\obj\Debug\net9.0-windows\refint\SentryGazeCaptureTiming.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\obj\Debug\net9.0-windows\SentryGazeCaptureTiming.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\obj\Debug\net9.0-windows\SentryGazeCaptureTiming.genruntimeconfig.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\obj\Debug\net9.0-windows\ref\SentryGazeCaptureTiming.dll

@@ -1,0 +1,4 @@
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\obj\Debug\net9.0\SentryGazeCaptureTiming.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\obj\Debug\net9.0\SentryGazeCaptureTiming.AssemblyInfoInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\obj\Debug\net9.0\SentryGazeCaptureTiming.AssemblyInfo.cs
+C:\Users\Mo\Desktop\ashghal\SentryGazeCaptureTiming\obj\Debug\net9.0\SentryGazeCaptureTiming.csproj.CoreCompileInputs.cache
