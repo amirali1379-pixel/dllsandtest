@@ -1,0 +1,14 @@
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase10DatasetTest\bin\Debug\net9.0\SentryGazePhase10DatasetTest.exe
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase10DatasetTest\bin\Debug\net9.0\SentryGazePhase10DatasetTest.deps.json
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase10DatasetTest\bin\Debug\net9.0\SentryGazePhase10DatasetTest.runtimeconfig.json
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase10DatasetTest\bin\Debug\net9.0\SentryGazePhase10DatasetTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase10DatasetTest\bin\Debug\net9.0\SentryGazePhase10DatasetTest.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase10DatasetTest\obj\Debug\net9.0\SentryGazePhase10DatasetTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase10DatasetTest\obj\Debug\net9.0\SentryGazePhase10DatasetTest.AssemblyInfoInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase10DatasetTest\obj\Debug\net9.0\SentryGazePhase10DatasetTest.AssemblyInfo.cs
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase10DatasetTest\obj\Debug\net9.0\SentryGazePhase10DatasetTest.csproj.CoreCompileInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase10DatasetTest\obj\Debug\net9.0\SentryGazePhase10DatasetTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase10DatasetTest\obj\Debug\net9.0\refint\SentryGazePhase10DatasetTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase10DatasetTest\obj\Debug\net9.0\SentryGazePhase10DatasetTest.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase10DatasetTest\obj\Debug\net9.0\SentryGazePhase10DatasetTest.genruntimeconfig.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase10DatasetTest\obj\Debug\net9.0\ref\SentryGazePhase10DatasetTest.dll
