@@ -1,0 +1,39 @@
+SENTRY GAZE — PHASE 15 MOVEMENT PROFILE
+
+Sessions analyzed: 1
+
+=== MOVEMENT ===
+Average total distance: 44.095979
+Average velocity: 3.370184
+Average peak velocity: 25.540858
+Average velocity SD: 4.124271
+
+=== TIMING ===
+Average sample rate: 52.31 Hz
+Average duration: 14.566 sec
+Average mean dt: 19.14 ms
+Average max gap: 225.02 ms
+
+=== FIXATIONS ===
+Average low movement: 32.72%
+Average fixations: 11.00
+
+=== CONSISTENCY ===
+Sample rate spread: 0.00 Hz
+Duration spread: 0.000 sec
+Mean velocity spread: 0.000000
+Velocity SD spread: 0.000000
+
+=== VALIDITY ===
+Coordinate validity: PASS
+Timing validity: PASS
+Movement validity: PASS
+Axis coverage: PASS
+
+PROFILE STATUS: READY
+
+Sensitivity estimation: NOT YET PERFORMED
+Raw CSV modified: NO
+Raw CSV overwritten: NO
+Filtering applied: NO
+Interpolation applied: NO

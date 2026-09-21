@@ -1,0 +1,14 @@
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase16ControlledTrialTest\obj\Debug\net9.0\SentryGazePhase16ControlledTrialTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase16ControlledTrialTest\obj\Debug\net9.0\SentryGazePhase16ControlledTrialTest.AssemblyInfoInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase16ControlledTrialTest\obj\Debug\net9.0\SentryGazePhase16ControlledTrialTest.AssemblyInfo.cs
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase16ControlledTrialTest\obj\Debug\net9.0\SentryGazePhase16ControlledTrialTest.csproj.CoreCompileInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase16ControlledTrialTest\bin\Debug\net9.0\SentryGazePhase16ControlledTrialTest.exe
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase16ControlledTrialTest\bin\Debug\net9.0\SentryGazePhase16ControlledTrialTest.deps.json
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase16ControlledTrialTest\bin\Debug\net9.0\SentryGazePhase16ControlledTrialTest.runtimeconfig.json
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase16ControlledTrialTest\bin\Debug\net9.0\SentryGazePhase16ControlledTrialTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase16ControlledTrialTest\bin\Debug\net9.0\SentryGazePhase16ControlledTrialTest.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase16ControlledTrialTest\obj\Debug\net9.0\SentryGazePhase16ControlledTrialTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase16ControlledTrialTest\obj\Debug\net9.0\refint\SentryGazePhase16ControlledTrialTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase16ControlledTrialTest\obj\Debug\net9.0\SentryGazePhase16ControlledTrialTest.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase16ControlledTrialTest\obj\Debug\net9.0\SentryGazePhase16ControlledTrialTest.genruntimeconfig.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase16ControlledTrialTest\obj\Debug\net9.0\ref\SentryGazePhase16ControlledTrialTest.dll

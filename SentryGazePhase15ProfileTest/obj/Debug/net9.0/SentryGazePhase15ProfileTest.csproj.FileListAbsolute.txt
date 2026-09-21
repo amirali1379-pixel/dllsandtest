@@ -1,0 +1,14 @@
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase15ProfileTest\bin\Debug\net9.0\SentryGazePhase15ProfileTest.exe
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase15ProfileTest\bin\Debug\net9.0\SentryGazePhase15ProfileTest.deps.json
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase15ProfileTest\bin\Debug\net9.0\SentryGazePhase15ProfileTest.runtimeconfig.json
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase15ProfileTest\bin\Debug\net9.0\SentryGazePhase15ProfileTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase15ProfileTest\bin\Debug\net9.0\SentryGazePhase15ProfileTest.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase15ProfileTest\obj\Debug\net9.0\SentryGazePhase15ProfileTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase15ProfileTest\obj\Debug\net9.0\SentryGazePhase15ProfileTest.AssemblyInfoInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase15ProfileTest\obj\Debug\net9.0\SentryGazePhase15ProfileTest.AssemblyInfo.cs
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase15ProfileTest\obj\Debug\net9.0\SentryGazePhase15ProfileTest.csproj.CoreCompileInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase15ProfileTest\obj\Debug\net9.0\SentryGazePhase15ProfileTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase15ProfileTest\obj\Debug\net9.0\refint\SentryGazePhase15ProfileTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase15ProfileTest\obj\Debug\net9.0\SentryGazePhase15ProfileTest.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase15ProfileTest\obj\Debug\net9.0\SentryGazePhase15ProfileTest.genruntimeconfig.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase15ProfileTest\obj\Debug\net9.0\ref\SentryGazePhase15ProfileTest.dll
