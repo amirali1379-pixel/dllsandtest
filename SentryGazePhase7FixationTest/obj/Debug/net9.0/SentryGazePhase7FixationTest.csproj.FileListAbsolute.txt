@@ -1,0 +1,14 @@
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase7FixationTest\bin\Debug\net9.0\SentryGazePhase7FixationTest.exe
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase7FixationTest\bin\Debug\net9.0\SentryGazePhase7FixationTest.deps.json
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase7FixationTest\bin\Debug\net9.0\SentryGazePhase7FixationTest.runtimeconfig.json
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase7FixationTest\bin\Debug\net9.0\SentryGazePhase7FixationTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase7FixationTest\bin\Debug\net9.0\SentryGazePhase7FixationTest.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase7FixationTest\obj\Debug\net9.0\SentryGazePhase7FixationTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase7FixationTest\obj\Debug\net9.0\SentryGazePhase7FixationTest.AssemblyInfoInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase7FixationTest\obj\Debug\net9.0\SentryGazePhase7FixationTest.AssemblyInfo.cs
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase7FixationTest\obj\Debug\net9.0\SentryGazePhase7FixationTest.csproj.CoreCompileInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase7FixationTest\obj\Debug\net9.0\SentryGazePhase7FixationTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase7FixationTest\obj\Debug\net9.0\refint\SentryGazePhase7FixationTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase7FixationTest\obj\Debug\net9.0\SentryGazePhase7FixationTest.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase7FixationTest\obj\Debug\net9.0\SentryGazePhase7FixationTest.genruntimeconfig.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase7FixationTest\obj\Debug\net9.0\ref\SentryGazePhase7FixationTest.dll

@@ -1,0 +1,14 @@
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase8MovementTest\bin\Debug\net9.0\SentryGazePhase8MovementTest.exe
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase8MovementTest\bin\Debug\net9.0\SentryGazePhase8MovementTest.deps.json
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase8MovementTest\bin\Debug\net9.0\SentryGazePhase8MovementTest.runtimeconfig.json
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase8MovementTest\bin\Debug\net9.0\SentryGazePhase8MovementTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase8MovementTest\bin\Debug\net9.0\SentryGazePhase8MovementTest.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase8MovementTest\obj\Debug\net9.0\SentryGazePhase8MovementTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase8MovementTest\obj\Debug\net9.0\SentryGazePhase8MovementTest.AssemblyInfoInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase8MovementTest\obj\Debug\net9.0\SentryGazePhase8MovementTest.AssemblyInfo.cs
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase8MovementTest\obj\Debug\net9.0\SentryGazePhase8MovementTest.csproj.CoreCompileInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase8MovementTest\obj\Debug\net9.0\SentryGazePhase8MovementTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase8MovementTest\obj\Debug\net9.0\refint\SentryGazePhase8MovementTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase8MovementTest\obj\Debug\net9.0\SentryGazePhase8MovementTest.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase8MovementTest\obj\Debug\net9.0\SentryGazePhase8MovementTest.genruntimeconfig.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase8MovementTest\obj\Debug\net9.0\ref\SentryGazePhase8MovementTest.dll

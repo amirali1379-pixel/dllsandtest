@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "SentryGazePhase8MovementTest/1.0.0": {
+        "runtime": {
+          "SentryGazePhase8MovementTest.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SentryGazePhase8MovementTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

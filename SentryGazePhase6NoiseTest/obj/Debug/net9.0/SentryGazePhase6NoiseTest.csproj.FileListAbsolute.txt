@@ -1,0 +1,14 @@
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase6NoiseTest\bin\Debug\net9.0\SentryGazePhase6NoiseTest.exe
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase6NoiseTest\bin\Debug\net9.0\SentryGazePhase6NoiseTest.deps.json
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase6NoiseTest\bin\Debug\net9.0\SentryGazePhase6NoiseTest.runtimeconfig.json
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase6NoiseTest\bin\Debug\net9.0\SentryGazePhase6NoiseTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase6NoiseTest\bin\Debug\net9.0\SentryGazePhase6NoiseTest.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase6NoiseTest\obj\Debug\net9.0\SentryGazePhase6NoiseTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase6NoiseTest\obj\Debug\net9.0\SentryGazePhase6NoiseTest.AssemblyInfoInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase6NoiseTest\obj\Debug\net9.0\SentryGazePhase6NoiseTest.AssemblyInfo.cs
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase6NoiseTest\obj\Debug\net9.0\SentryGazePhase6NoiseTest.csproj.CoreCompileInputs.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase6NoiseTest\obj\Debug\net9.0\SentryGazePhase6NoiseTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase6NoiseTest\obj\Debug\net9.0\refint\SentryGazePhase6NoiseTest.dll
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase6NoiseTest\obj\Debug\net9.0\SentryGazePhase6NoiseTest.pdb
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase6NoiseTest\obj\Debug\net9.0\SentryGazePhase6NoiseTest.genruntimeconfig.cache
+C:\Users\Mo\Desktop\ashghal\SentryGazePhase6NoiseTest\obj\Debug\net9.0\ref\SentryGazePhase6NoiseTest.dll
