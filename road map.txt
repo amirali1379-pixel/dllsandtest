@@ -1,0 +1,248 @@
+Sentry Gaze Data Roadmap
+PHASE 0 — حفظ وضعیت فعلی ✅
+
+هدف: چیزی که الان کار می‌کند دست‌نخورده بماند.
+
+SentryGazeTest = Capture اصلی
+gaze_*.csv = داده خام
+SentryGazeAnalyzer = تحلیل آفلاین
+هیچ بازنویسی غیرضروری
+هیچ حذف فایل/پوشه
+
+وضعیت: COMPLETE
+
+PHASE 1 — تأیید Raw Gaze Capture ✅
+
+اثبات کردیم:
+
+Tracker:
+tet-tcp://127.0.0.1
+
+Gaze:
+X
+Y
+TimestampMicroSeconds
+
+و داده واقعی وارد CSV می‌شود.
+
+وضعیت: COMPLETE
+
+PHASE 2 — Raw Data Quality ✅
+
+Analyzer فعلی:
+
+Sample count
+Duration
+Δt
+Min/Max Δt
+Gap detection
+X/Y range
+Movement distance
+Velocity
+Percentiles
+
+نتیجه فعلی:
+
+156 samples
+5.580 sec
+
+152 valid intervals
+3 large gaps
+
+P50 velocity = 0.446577
+P90 velocity = 6.013611
+P95 velocity = 8.282925
+P99 velocity = 13.766414
+
+وضعیت: COMPLETE
+
+PHASE 3 — API DATA PATH 🔴 NEXT
+
+هدف فقط یک چیز:
+
+مشخص کنیم داده‌ای که از Sentry می‌گیریم دقیقاً از چه مسیر API می‌آید و آیا چیزی drop می‌شود یا نه.
+
+بررسی:
+
+TryGetLatestGazePoint()
+        ↓
+GetGazePoints()
+
+و همچنین:
+
+Update()
+Tracker
+Stream
+قانون این مرحله
+
+هیچ فرضی درباره GetGazePoints() نداریم.
+
+اول signature واقعی DLL را بررسی می‌کنیم.
+
+بعد فقط یک تست کوچک می‌نویسیم.
+
+PHASE 4 — Sampling Characterization
+
+وقتی PHASE 3 مشخص شد:
+
+اندازه‌گیری می‌کنیم:
+
+Actual sample rate
+Timestamp spacing
+Dropped samples
+Duplicate samples
+Timing jitter
+Maximum gap
+
+خروجی باید چیزی شبیه این باشد:
+
+Nominal rate:
+Effective rate:
+Median Δt:
+P95 Δt:
+P99 Δt:
+Max gap:
+Estimated dropped samples:
+PHASE 5 — Coordinate Validation
+
+بررسی می‌کنیم X/Y دقیقاً چه coordinate system دارند.
+
+مثلاً:
+
+Range
+Origin
+Center
+Axis direction
+Normalization
+Screen mapping
+
+و مشخص می‌کنیم:
+
+X/Y
+
+آیا normalized gaze coordinates هستند یا چیز دیگری.
+
+قبل از این مرحله هیچ تبدیل مختصاتی انجام نمی‌دهیم.
+
+PHASE 6 — Gaze Signal Processing
+
+بعد از اینکه Raw Data تأیید شد:
+
+Raw
+ ↓
+Gap Handling
+ ↓
+Noise Analysis
+ ↓
+Optional Filtering
+ ↓
+Clean Gaze Signal
+
+ولی:
+
+Raw CSV همیشه حفظ می‌شود.
+
+هیچ‌وقت داده خام را overwrite نمی‌کنیم.
+
+PHASE 7 — Fixation Detection
+
+تشخیص:
+
+FIXATION
+SACCADE
+TRANSITION
+BLINK / LOST DATA
+
+و اندازه‌گیری:
+
+fixation duration
+dispersion
+movement amplitude
+transition time
+PHASE 8 — Gaze Movement Metrics
+
+بعد می‌رسیم به metrics واقعی:
+
+Velocity
+Acceleration
+Peak Velocity
+Movement Duration
+Amplitude
+Direction
+Angular Movement
+Smoothness
+
+و مهم‌تر:
+
+valid movement
+vs
+invalid gap
+PHASE 9 — Trial System
+
+بعد داده را از حالت CSV خام به Trial تبدیل می‌کنیم:
+
+Trial
+ ├── Start
+ ├── Fixation
+ ├── Target
+ ├── Gaze Movement
+ ├── Target Acquisition
+ ├── End
+ └── Metrics
+PHASE 10 — Sentry Scientific Dataset
+
+ساختار نهایی داده:
+
+Session
+ ├── Device
+ ├── Configuration
+ ├── Calibration
+ ├── Trials
+ │    ├── Raw Gaze
+ │    ├── Clean Gaze
+ │    ├── Fixations
+ │    ├── Movements
+ │    └── Metrics
+ └── Quality Report
+PHASE 11 — Visualization
+
+بعد UI/Visualization:
+
+Gaze Path
+Velocity Graph
+Δt Graph
+Fixation Map
+Heatmap
+Movement Timeline
+Quality Timeline
+PHASE 12 — Scientific Analysis
+
+در نهایت می‌توانیم از داده استفاده کنیم برای:
+
+Human gaze behavior
+Movement characteristics
+Reaction timing
+Precision
+Consistency
+Fatigue indicators
+Direction-dependent behavior
+
+و اگر بعداً با پروژه Aim Trainer ترکیبش کنیم:
+
+Mouse Movement
+        +
+Gaze Movement
+        ↓
+Human Sensorimotor Profile
+قانون جدید پروژه
+
+از اینجا به بعد:
+
+1. Roadmap را دنبال می‌کنیم.
+2. هر مرحله یک هدف مشخص دارد.
+3. اول وضعیت موجود را بررسی می‌کنیم.
+4. حدس درباره API ممنوع.
+5. کد فقط وقتی نوشته می‌شود که دقیقاً بدانیم چرا لازم است.
+6. Capture اصلی دست‌نخورده می‌ماند مگر اینکه خود مرحله صراحتاً نیاز داشته باشد.
+7. Raw CSV هیچ‌وقت حذف یا overwrite نمی‌شود.
+8. هر مرحله → Build → Run → نتیجه → تأیید → مرحله بعد.
